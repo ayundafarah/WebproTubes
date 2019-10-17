@@ -1,0 +1,180 @@
+body {
+	font-size: 200%;
+	color: #fff;
+}
+
+footer {
+	background-color: #DB7093;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #FFC0CB;
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: #DB7093;
+	border-bottom: 1px solid #DB7093;
+	padding: 1% 0;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #FFC0CB;
+}
+
+.navbar-header {
+	padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #DB7093;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #FFC0CB;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #FFC0CB;
+}
+
+.banner {
+	width: 100%;
+}
+
+h1 {
+	font-size: 500%;
+	font-weight: 800;
+	text-shadow: 2px 2px 2px #666;
+	font-family: cursive;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 300%;
+	font-family: cursive;
+	text-shadow: 1px 1px 1px #666;
+}
+
+h3 {
+	font-size: 150%;
+	max-width: 80%;
+	margin: 0 auto;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 1px #666;
+}
+
+h4 {
+	font-size: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 1px #666;
+}
+
+p {
+	font-size: 120%;
+	padding: 6%;
+}
+
+img {
+	margin: 0 auto;
+}
+
+#icon {
+	max-width: 200px;
+	margin: 1% auto;
+}
+
+#home {
+	padding-top: 60px;
+}
+
+#about {
+	padding: 70px 0;
+	background-color: #DB7093;
+}
+
+#khimar {
+	padding: 70px 0 50px;
+	background-color: #F5F5F5;
+	color: #4B0082;
+}
+
+#dress {
+	padding: 70px 0 50px;
+	background-color: #F5F5F5;
+	color: #4B0082;
+}
+
+#ciput {
+	padding: 70px 0;
+	background-color: #F5F5F5;
+	color: #4B0082;
+}
+
+.row {
+	margin: 0;
+}
+
+.mycarousel {
+    width: 100%;
+}
+
+button {
+    font-family: sans-serif;
+    padding: 10px 24px;
+    background-color: #DB7093;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFC0CB;
+    color: #fff;
+}
+
+.batas-section {
+	background-color: #DB7093;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 350%;
+	}
+	h2 {
+		font-size: 200%;
+	}
+	h3 {
+		font-size: 120%;
+		max-width: 90%;
+	}
+	h4 {
+		font-size: 100%;
+		max-width: 85%;
+	}
+	p {
+		padding-top: 3%;
+		font-size: 100%;
+	}
+	img #code {
+		max-width: 160px;
+	}
+}

@@ -1,0 +1,26 @@
+Deskripsi
+
+navbar : merupakan tampilan navbar yang akan di pakai pada setiap tampilan customer
+scrolling.js : digunakan pada home
+config : Membaca database dengan nama "bismillah"
+script : merupakan pemanggilan bootstrap
+header : berisikan slider yang akan diinput pada indexcust
+index : home dari web, sebelum melakukan sign in
+Login dan login-a : function login untuk mengecek user sexual database
+
+TAMPILAN CUSTOMER
+sign in : merupakan halaman sign in untuk customer (memanggil login.php)
+sign up : Merupakan halaman untuk customer melakukan pendaftaran
+indexcust : Merupakan halaman awal saat customer setelah sign in
+form : merupakan form untuk belanja dengan input manual
+atc-dress : untuk belanja dengan menyimpan sementara di cart
+khimar : untuk melihat katalog khimar
+transfer : untuk melakukan upload bukti transfer dari customer
+
+TAMPILAN ADMIN
+signin-admin : halaman admin untuk melakukan sign in (memanggil login-a.php)
+admin : merupakan home admin yang akan menampilkan isi tabel pembelian dari database
+data-a : merupakan view dari tabel admin (hanya bisa dilihat oleh user admin)
+data-c : merupakan view dari tabel customer (hanya bisa dilihat oleh user customer)
+function : berisikan fungsi function yang digunakan saat melakukan CRUD tabel pada data-a
+stok : merupakan tampilan dari tabel stok dari database

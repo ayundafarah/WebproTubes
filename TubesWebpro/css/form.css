@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+
+body {
+	background-color: #FFC0CB;
+}
+
+.navbar {
+	background-color: #DB7093;
+	border-bottom: 1px solid #DB7093;
+	padding: 1% 0;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #FFC0CB;
+}
+
+.navbar-header {
+	padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #DB7093;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #FFC0CB;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #FFC0CB;
+}
+
+.form-container {
+	padding: 50px 60px;
+	margin-top: 20vh;
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: 800;
+	text-shadow: 2px 2px 2px #666;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+}
+
+h2 {
+	font-size: 210%;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	padding-bottom: 50px;
+	color: #fff;
+}
